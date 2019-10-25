@@ -1,5 +1,5 @@
 {
-    "name": "Node js + mongo db",
+    "name": "nodejs",
     "version": "1.0.0",
     "main": "server.js",
     "description": "Crud mongo db com node js, conteinerizado em docker",
