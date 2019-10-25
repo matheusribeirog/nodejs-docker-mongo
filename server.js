@@ -4,7 +4,7 @@ const bodyParser = require('body-parser')
 
 const ObjectId = require('mongodb').ObjectID
 const MongoClient = require('mongodb').MongoClient
-const uri = "mongodb://169.254.206.253:27017";
+const uri = "mongodb://35.202.45.20/:27017";
 
 const rotas=require("./routes")
 
@@ -14,7 +14,7 @@ MongoClient.connect(uri,{useNewUrlParser:true}, (err, client) => {
   if (err) return console.log(err)
   db = client.db('crud-nodejs') // coloque o nome do seu DB
 
-  app.listen(3000, () => {
+  app.listen(80, () => {
     console.log('Server running on port 3000')
   })
 })
