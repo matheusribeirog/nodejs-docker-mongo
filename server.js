@@ -4,7 +4,7 @@ const bodyParser = require('body-parser')
 
 const ObjectId = require('mongodb').ObjectID
 const MongoClient = require('mongodb').MongoClient
-const uri = "mongodb://yourmongodburl";
+const uri = "mongodb://35.225.64.61:27017";
 
 const rotas=require("./routes")
 
